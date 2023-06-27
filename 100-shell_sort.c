@@ -10,8 +10,8 @@
  */
 void shell_sort(int *array, size_t size)
 {
-	size_t interval = 1;
-	int temp, i, j;
+	size_t interval = 1, i, j;
+	int temp;
 
 	if (array == NULL || size < 2)
 		return;
@@ -24,12 +24,8 @@ void shell_sort(int *array, size_t size)
 		for (i = interval; i < size; i++)
 		{
 			temp = array[i];
-			j = i;
-			while (j >= interval && array[j - interval] > temp)
-			{
+			for (j = i; j >= interval && array[j - interval] > temp; j -= interval)
 				array[j] = array[j - interval];
-				j -= interval;
-			}
 			array[j] = temp;
 		}
 		interval = (interval - 1) / 3;
