@@ -144,3 +144,12 @@ typedef struct listint_s
 *mandatory*
 - Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
 
+2. **Selection sort** <br>
+*mandatory*
+- Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
+
+3. **Quick sort** <br>
+*mandatory*
+
+4. **Shell sort - Knuth Sequence** <br>
+*#advanced*
