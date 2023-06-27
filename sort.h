@@ -27,14 +27,6 @@ typedef struct listint_s
  *
  * Return: void
  */
-void swap(int a, int b);
-
-void swap(int *a, int *b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
 
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
