@@ -150,6 +150,20 @@ typedef struct listint_s
 
 3. **Quick sort** <br>
 *mandatory*
+- Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
 
 4. **Shell sort - Knuth Sequence** <br>
 *#advanced*
+- Write a function that sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence
+
+5. **Cocktail shaker sort** <br>
+*#advanced*
+- Write a function that sorts a doubly linked list of integers in ascending order using the Cocktail shaker sort algorithm
+
+6. **Counting sort** <br>
+*#advanced*
+- Write a function that sorts an array of integers in ascending order using the Counting sort algorithm
+
+7. **Merge sort** <br>
+*#advanced*
+- Write a function that sorts an array of integers in ascending order using the Merge sort algorithm
