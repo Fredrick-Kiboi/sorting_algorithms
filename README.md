@@ -139,3 +139,8 @@ typedef struct listint_s
   1) in the best case
   2) in the average case
   3) in the worst case
+
+1. **Insertion sort** <br>
+*mandatory*
+- Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+
